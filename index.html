@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hit The Dot 2</title>
+  <link type="text/css" rel="stylesheet" href="stylesheets/main.css">
+  <meta name="author" content="Pavle">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  
+  <header>
+  		<h1>
+  			Hit The Dot 2
+  		</h1>
+  </header>
+
+  <main class="container">
+
+  		<section class="main-content">
+  			<h1 class="main-content__headline">Test your skill. How many boxes can you click in 30 seconds?</h1>
+
+  			<form class="main-headline__controls">
+  				<label>
+  					<input type="button" value="Start Game" class="controls--start-game">
+  				</label>
+  				<label>
+  					<input type="button" value="Stop Game" class="controls--stop-game">
+  				</label>
+
+  				<label>Select difficulty:
+  					<select class="controls__difficulty">
+  						<option value="Easy">Easy</option>
+  						<option value="Normal">Normal</option>
+  						<option value="Hard">Hard</option>
+  					</select>
+  				</label>
+
+  				<br>
+  				<label>Enter number of boxes:
+  					<input type="text" class="controls--num-of-boxes" value="100">
+  				</label>
+
+  			</form>
+
+  			<p class="main-content__score">Score: 0</p>
+  			<p class="main-content__timer">Time: 30</p>
+
+  		</section>
+
+  		<section class="main-boxes">
+  			<ul class="main-boxes__list">
+  				
+  			</ul>
+  		</section>
+  	
+  </main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/generateList.js"></script>
+<script src="js/gameLogic.js"></script>
+
+
+</body>
+</html>

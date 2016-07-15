@@ -1,0 +1,8 @@
+@import "partials/_reset.scss";
+@import "variables/_variables.scss";
+@import "partials/_header.scss";
+@import "partials/_main-content.scss";
+@import "partials/_main-boxes.scss";
+
+
+@include meyer-reset();

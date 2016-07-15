@@ -1,0 +1,42 @@
+
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.main-content{
+
+
+	&__headline{
+		margin-top: 50px;
+    	margin-bottom: 50px;
+		font-size: 1.9em;
+	}
+
+
+
+}
+
+.controls--start-game{
+	padding: 15px;
+	background-color: $default-bg;
+	color: white;
+	transition : 0.5s ease-in-out;
+	width: 50%;
+	float: left;
+    margin-bottom: 50px;
+	&:hover{
+		background-color: lighten($default-bg, 15%);
+		transition : 0.5s ease-in-out;
+		cursor: pointer;
+	}
+}
+
+.controls--stop-game{
+	@extend .controls--start-game;
+}
+
+

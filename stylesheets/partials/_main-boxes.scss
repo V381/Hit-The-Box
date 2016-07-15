@@ -1,0 +1,41 @@
+
+.main-boxes__list{
+	li{
+		border-radius: 20px;
+		background-color: $default-bg;
+		padding: 18px;
+		display: inline-block;
+		border : 1px solid red;
+		&:hover{
+			cursor: pointer;
+			background-color: lighten($default-bg, 15%);
+		}
+	}
+}
+
+.activeBox{
+	background-color: red !important;
+	border: 1px solid black !important;
+}
+
+.controls__difficulty{
+	padding: 15px;
+	margin-bottom: 5px; 
+	margin-left: 51px;
+	width: 94px;
+}
+
+.controls--num-of-boxes{
+	padding: 15px;
+	margin-bottom: 5px; 
+	    width: 60px;
+}
+
+.controls__first-section{
+	width: 50%;
+	float: left;
+}
+
+.main-content__timer{
+	margin-bottom: 20px;
+}
